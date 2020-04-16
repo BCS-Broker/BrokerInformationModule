@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrokerInformationModule'
-  s.version          = '2.0.1'
+  s.version          = '2.1.0'
   s.summary          = 'BrokerSDK.BrokerInformationModule'
   s.homepage         = 'https://github.com/BCS-Broker/BrokerInformationModule'
   s.author           = 'BCS'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BrokerInformationModule.framework' 
   s.public_header_files = '*.framework/**/*.h'
   s.source_files = '*.framework/**/*.h'
-  s.dependency 'BrokerUIKit', '~> 2.0.4' 
+  s.dependency 'BrokerUIKit', '~> 2.1.0' 
 end
